@@ -1,0 +1,85 @@
+.footer-outer {
+    display: flex;
+    background-color: #17202A;
+    flex-direction: column;
+
+    /* flex-direction: row;
+    justify-content: space-between; */
+    margin: 1.6rem 0 ;
+    padding: 1rem;
+    border-radius: 2%;
+   
+   
+    
+}
+
+
+
+
+.company-address-div {
+    color: #fff;
+    margin: 5% 0;
+    text-decoration: none;
+    /* text-align: center; */
+    text-shadow: 0.5px 0.5px 2px #CAD5E2;
+}
+.company-address-div::before {
+
+    content: ""
+    
+}
+
+ .contact-number {
+    display: block;
+    color: #fff;
+    margin: 6% 0;
+    text-decoration: none;
+    /* text-align: center; */
+    text-shadow: 0.5px 0.5px 2px #CAD5E2;
+}
+.contact-email {
+   
+        display: block;
+        color: #3944F7;
+        margin: 5% 0;
+        text-decoration: none;
+        /* text-align: center; */
+        /* text-shadow: 0.5px 0.5px 2px #CAD5E2; */
+    
+}
+
+/* right */
+
+.inner-div {
+    /* width: calc(50%); */
+
+}
+.about-company {
+    color: #fff;
+    /* text-align: center; */
+    text-shadow: 0.1px 0.1px 0.1px #CAD5E2;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    font-size: large;
+   
+}
+
+
+.company-info-div {
+    color: #CAD5E2;
+    /* text-align: center; */
+    margin: 0 0 5%  0;
+   
+}
+
+@media  (min-width:900px)  {
+    .footer-outer{
+        flex-direction: row;
+    };
+    .address-div {
+        flex-grow: 2;
+    }
+    .inner-div {
+        flex-grow: 1;
+    }
+}

@@ -1,0 +1,28 @@
+.arrow {
+    position: absolute;
+    top: calc(50% - 1.5em);
+    line-height: 0;
+    width:3.8vw;
+    height:3.8vw;
+}
+.MuiSvgIcon-left-right {
+
+    /* font-size: 50px !important; */
+    /* color: white; */
+    fill:black;
+    width:100%;
+     height:100%;
+
+}
+
+.left-pos {
+
+    left: 0.5em;
+    
+}
+
+.right-pos {
+
+    right: 0.5em;
+
+}

@@ -1,0 +1,41 @@
+/* .outer {
+
+} */
+
+.coverImage {
+    width: inherit;
+    max-height: 40vw;
+    animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    transform: scale(1.4);
+    /* background-color: red; */
+    border-radius: 5%;
+    /* transform:translate(900px,0px); */
+    opacity:0.8;
+  }
+  50% {
+    /* background-color: orange; */
+    /* transform: scale(1.2); */
+    /* border-radius: 10%; */
+  }
+  100% {
+    transform: scale(1);
+    /* border-radius: 0%; */
+    /* transform:translate(0px,0px); */
+    opacity:0.98;
+    
+    /* background-color: yellow; */
+  }
+}
+
+/* @keyframes fade {
+    0% {
+      transform:translate(70px,70px);
+    }
+    100% {
+      transform:translate(0px,0px);
+    }
+  } */

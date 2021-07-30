@@ -1,25 +1,93 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/navbar/navbar.component";
+import Crousel from "./components/crousel/crousel.component";
+import "./App.css";
+import carauto from './images/car_auto.jpg';
+import carparts from './images/Car-Parts.jpg';
+import drive from './images/DrivenbyPassion.jpg';
+import CarouselArrow from './components/carouselArrow/carouselArrow.componenet';
+import Brand from './components/shop by brand/brand.component.jsx';
+import Footer from './components/footer/footer.component';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+    constructor(){
+      super();
+      this.state ={
+        imgState:0,
+        autoImages:[
+          {
+              id:1,
+              imageUrl:carauto
+          },
+          {
+              id:2,
+              imageUrl:carparts
+          },
+          {
+            id:3,
+            imageUrl: drive
+          }
+        ]
+      };
+    }
+    
+    changeImageRight=()=>{
+      
+      this.setState((state) => {
+        if(state.imgState+1===state.autoImages.length)
+        {
+          return {
+            imgState: 0
+          }
+        }
+        return {
+        imgState: state.imgState + 1
+      }
+    });
+      
+    }
+
+    changeImageLeft=()=>{
+      
+      this.setState((state) => {
+        if(state.imgState-1===-1)
+        {
+          return {
+            imgState: state.autoImages.length-1
+          }
+        }
+        return {
+        imgState: state.imgState - 1
+      }
+    });
+      
+    }
+
+  render() {
+    const {autoImages} = this.state;
+    const {imgState} = this.state;
+    
+    return (
+      <div className="App">
+        <nav>
+          <Navbar />
+        </nav>
+        <section className="carousel-flex">
+          {/* {autoImages.map((autoimage) => <Crousel  image= {autoimage}></Crousel>)} */}
+          <Crousel  key={autoImages[imgState].id} image= {autoImages[imgState]}></Crousel>
+          <CarouselArrow changeImage={this.changeImageLeft} left/>
+          <CarouselArrow changeImage={this.changeImageRight} right/>
+          
+        </section>
+
+        <Brand />
+        
+        <Footer />
+
+      </div>
+    );
+  }
 }
 
 export default App;
