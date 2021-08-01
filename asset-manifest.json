@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/rrenterprises/static/css/main.950534bf.chunk.css",
+    "main.js": "/rrenterprises/static/js/main.54eeeeab.chunk.js",
+    "main.js.map": "/rrenterprises/static/js/main.54eeeeab.chunk.js.map",
+    "runtime-main.js": "/rrenterprises/static/js/runtime-main.c1ec0418.js",
+    "runtime-main.js.map": "/rrenterprises/static/js/runtime-main.c1ec0418.js.map",
+    "static/css/2.64b7a0d5.chunk.css": "/rrenterprises/static/css/2.64b7a0d5.chunk.css",
+    "static/js/2.c519d7cc.chunk.js": "/rrenterprises/static/js/2.c519d7cc.chunk.js",
+    "static/js/2.c519d7cc.chunk.js.map": "/rrenterprises/static/js/2.c519d7cc.chunk.js.map",
+    "index.html": "/rrenterprises/index.html",
+    "static/css/2.64b7a0d5.chunk.css.map": "/rrenterprises/static/css/2.64b7a0d5.chunk.css.map",
+    "static/css/main.950534bf.chunk.css.map": "/rrenterprises/static/css/main.950534bf.chunk.css.map",
+    "static/js/2.c519d7cc.chunk.js.LICENSE.txt": "/rrenterprises/static/js/2.c519d7cc.chunk.js.LICENSE.txt",
+    "static/media/BMW.0b1810a9.jpg": "/rrenterprises/static/media/BMW.0b1810a9.jpg",
+    "static/media/Car-Parts.c260b2d1.jpg": "/rrenterprises/static/media/Car-Parts.c260b2d1.jpg",
+    "static/media/DrivenbyPassion.fe66ccf3.jpg": "/rrenterprises/static/media/DrivenbyPassion.fe66ccf3.jpg",
+    "static/media/arrow-left.51fc423e.svg": "/rrenterprises/static/media/arrow-left.51fc423e.svg",
+    "static/media/arrow-right.b7fd8fbd.svg": "/rrenterprises/static/media/arrow-right.b7fd8fbd.svg",
+    "static/media/audi.76a2aa24.jpg": "/rrenterprises/static/media/audi.76a2aa24.jpg",
+    "static/media/car_auto.2060f38e.jpg": "/rrenterprises/static/media/car_auto.2060f38e.jpg",
+    "static/media/ford.7cc9450a.jpg": "/rrenterprises/static/media/ford.7cc9450a.jpg",
+    "static/media/mercedes.579a38a2.png": "/rrenterprises/static/media/mercedes.579a38a2.png",
+    "static/media/index.css": "/rrenterprises/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/skoda.a09c7f38.jpg": "/rrenterprises/static/media/skoda.a09c7f38.jpg",
+    "static/media/toyota.2fae9609.jpg": "/rrenterprises/static/media/toyota.2fae9609.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1ec0418.js",
+    "static/css/2.64b7a0d5.chunk.css",
+    "static/js/2.c519d7cc.chunk.js",
+    "static/css/main.950534bf.chunk.css",
+    "static/js/main.54eeeeab.chunk.js"
+  ]
+}
