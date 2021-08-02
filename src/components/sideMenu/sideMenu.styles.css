@@ -1,0 +1,38 @@
+.sidemenu-outer{
+    width: 50vw;
+    height: 100vh;
+    display:block;
+    position:absolute; 
+    z-index: 5;
+    /* background-color: rgb(52, 197, 233); */
+    background-image: linear-gradient(to top, #2b4e78, #355988, #406498, #4b70a8, #567bb9, #5a8ac4, #6199ce, #6aa8d8, #7dbcdb, #99cede, #b8dee3, #daeeed);
+    padding: 5px;
+    /* transform: none; */
+    animation: fade 0.4s cubic-bezier(0, 0, 0.2, 1) 0ms;
+    
+    /* border-radius: 0 2% 2% 0; */
+}
+
+.span-outer{
+    font-size: 20px;
+    text-align: right;
+}
+.close{
+    font-size: 20px;
+    padding:0 10px 0 10px;
+}
+
+@keyframes fade {
+    0% {
+      transform: translateX(-120px);
+      
+    }
+    50% {
+      
+    }
+    100% {
+        transform: translateX(0px);
+    }
+  }
+
+  

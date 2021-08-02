@@ -14,10 +14,10 @@ const Footer = () => (
 <footer className= "footer-outer">
     <address className="address-div">
     <LocationOnIcon className="location-icon"/>
-        <div className= "company-address-div"> 21 Kohat Enclave, Pitampura, Delhi-110034</div>
+        <div className= "company-address-div"> 60 Kohat Enclave, Pitampura, Delhi-110034</div>
 
 
-        <a href="tel:+919929292977" className="contact-number">+91 7206099355</a>
+        <a href="tel:+917206099355" className="contact-number">+91 7206099355</a>
         <a href="mailto:shivambhatia604@gmail.com" className="contact-email">Support@RREnterprises.com</a>
         
 

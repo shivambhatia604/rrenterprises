@@ -36,14 +36,14 @@ const useStyles = makeStyles((theme) => ({
 
 /****************CSS***************** */
 
-export default function ButtonAppBar() {
+export default function ButtonAppBar({onclick}) {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar className = {classes.toolbar}>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+          <IconButton onClick={onclick} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon className={classes.menuIcon_svg}/>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
