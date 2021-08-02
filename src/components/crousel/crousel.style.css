@@ -1,6 +1,7 @@
-/* .outer {
-
-} */
+.outer {
+  height: 40vw;
+  width: 100vw;
+}
 
 .coverImage {
     width: inherit;
