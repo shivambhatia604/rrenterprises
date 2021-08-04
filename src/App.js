@@ -92,6 +92,7 @@ class App extends React.Component {
 
         <Brand />
           <span>newwwww</span>
+          gajgjsgaj
         <Footer />
         
       </div>
