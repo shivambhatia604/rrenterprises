@@ -91,9 +91,9 @@ class App extends React.Component {
         </section>
 
         <Brand />
-
+          <span>newwwww</span>
         <Footer />
-        <p>Hello</p>
+        
       </div>
     );
   }
