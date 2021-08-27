@@ -1,5 +1,5 @@
 import React from "react";
-import './enquiry.styles.css';
+import './enquiryBtn.styles.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { Link } from "react-router-dom";
