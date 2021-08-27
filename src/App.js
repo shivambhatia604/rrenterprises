@@ -93,7 +93,7 @@ class App extends React.Component {
         <Brand />
 
         <Footer />
-        <p>Hello</p>
+        
       </div>
     );
   }
