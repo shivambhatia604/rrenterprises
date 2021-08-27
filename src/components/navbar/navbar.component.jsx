@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import  '@fontsource/roboto'; 
+import { Link } from 'react-router-dom';
 // import { ArrowLeft, ArrowLeftTwoTone } from '@material-ui/icons';
 
 /****************CSS***************** */
@@ -32,6 +33,10 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 400,
     // justifySelf: ArrowLeft
   },
+  logo:{
+    textDecoration:'none',
+    color:'white'
+  }
 }));
 
 /****************CSS***************** */
@@ -46,9 +51,12 @@ export default function ButtonAppBar({onclick}) {
           <IconButton onClick={onclick} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon className={classes.menuIcon_svg}/>
           </IconButton>
+          <Link to="/rrenterprises" class={classes.logo}>
           <Typography variant="h6" className={classes.title}>
+          
             RR ENTERPRISES
-          </Typography>
+            
+          </Typography></Link>
           {/* <Button color="inherit" className={classes.login}>Login</Button> */}
         </Toolbar>
       </AppBar>

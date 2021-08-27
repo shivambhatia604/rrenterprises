@@ -7,7 +7,7 @@ import Crousel from "../../components/crousel/crousel.component";
 import CarouselArrow from "../../components/carouselArrow/carouselArrow.componenet";
 import Brand from "../../components/shop by brand/brand.component.jsx";
 import Footer from "../../components/footer/footer.component";
-import { EnquiryBtn } from "../../components/sendEnquiryButton/enquiry.component";
+import { EnquiryBtn } from "../../components/sendEnquiryButton/enquiryBtn.component";
 
 
 class Homepage extends React.Component{
