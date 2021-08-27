@@ -1,11 +1,11 @@
 .outer {
-  height: 40vw;
+  height: 50vw;
   width: 100vw;
 }
 
 .coverImage {
     width: inherit;
-    max-height: 40vw;
+    min-height: 50vw;
     animation: fade 1s ease-in-out;
 }
 

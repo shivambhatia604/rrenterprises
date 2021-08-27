@@ -58,6 +58,7 @@ class Brand extends React.Component {
     // console.log(e);
     const currPos = e.changedTouches[0].clientX;
     // console.log(this.initialPosition);
+    
     if (currPos - this.initialPosition < 0) {
       if (this.state.touchDiff < -this.outerWidth) {
         return;
@@ -70,7 +71,7 @@ class Brand extends React.Component {
     }
     
     const diff = (currPos - this.initialPosition) ;
-    console.log("diff",diff);
+    // console.log("diff",diff);
     if(diff>this.state.touchDiff){
            this.initialPosition=currPos;
         
@@ -87,7 +88,7 @@ class Brand extends React.Component {
     const { brandImages } = this.state;
     return (
       <div className="brand-outer">
-        <div>SHOP BY BRAND</div>
+        <div className="shopTitle">SHOP BY BRAND</div>
         <div
           className="brandNames"
           onTouchStart={this.touchStart}
