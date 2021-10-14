@@ -60,11 +60,11 @@ const Footer = () => (
                 RR Enterprises
               </Box>
               <Typography>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur id odio provident! Molestiae quam provident
-                necessitatibus! Consequatur ex, obcaecati excepturi, adipisci
-                earum cumque consequuntur atque numquam expedita vel rem
-                voluptates.
+              R & R Enterprises is a trendsetting online store, offering our first-rate products and 
+              exceptional customer service to shoppers from the comfort of their own homes. 
+              We’re a business made up of innovators and forward-thinkers, with the drive and wherewithal 
+              to constantly update and improve the online shopping experience.
+
               </Typography>
               <Box>
                 <Link href="/" color="inherit">

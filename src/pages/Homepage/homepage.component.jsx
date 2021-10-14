@@ -7,7 +7,8 @@ import Crousel from "../../components/crousel/crousel.component";
 import CarouselArrow from "../../components/carouselArrow/carouselArrow.componenet";
 import Brand from "../../components/shop by brand/brand.component.jsx";
 import Footer from "../../components/footer/footer.component";
-import { EnquiryBtn } from "../../components/sendEnquiryButton/enquiryBtn.component";
+// import { EnquiryBtn } from "../../components/sendEnquiryButton/enquiryBtn.component";
+import {ContactBtn} from "../../components/contactButton/contactBtn.component"
 
 
 class Homepage extends React.Component{
@@ -73,7 +74,9 @@ render() {
           <CarouselArrow changeImage={this.changeImageRight} right />
         </section>
 
-        <EnquiryBtn />
+        {/* <EnquiryBtn /> */}
+        <ContactBtn />
+
 
         <Brand />
           
